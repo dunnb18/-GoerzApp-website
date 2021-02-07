@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOERZ</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Third party plugin CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Animate Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animate scroll JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Lootie fuiles CDN -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            color: rgb(209, 209, 209);
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        body {
+
+            background: linear-gradient(90deg, rgba(94, 23, 235, 1) 0%, rgba(255, 222, 89, 1) 100%);
+        }
+
+        #masterHead {
+            padding-top: 10rem;
+            padding-bottom: calc(10rem - 4.5rem);
+            padding-bottom: 0;
+        }
+
+        @media (max-width: 992px) {
+            #masterHead {
+                padding-top: 1rem;
+            }
+        }
+
+        .nav-link {
+            color: #fff !important;
+            font-size: 1.5rem;
+        }
+
+        @media (min-width: 992px) {
+            .navbar {
+                padding-left: 200px;
+                padding-right: 200px;
+            }
+        }
+
+        .btn {
+            background: transparent;
+            border-color: #fff;
+            border-radius: 10px;
+            color: #fff;
+            ;
+        }
+
+        .btn:hover {
+            opacity: 0.7;
+        }
+
+        .text-dark {
+            color: rgb(68, 68, 68) !important;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- navbar brand -->
+        <a class="navbar-brand animate__animated animate__fadeInLeft" href="#"><img src="brand-w.png" alt="Brand"
+                width="150"></a>
+        <!-- /navbar brand -->
+
+        <!-- toggle button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- /toggle button -->
+
+        <!-- navbar content -->
+        <div class="collapse navbar-collapse text-capitalize font-weight-bold" id="header">
+            <!-- links list -->
+            <ul class="navbar-nav  ml-auto animate__animated animate__fadeIn">
+                <li class="nav-item">
+                    <a class="nav-link" href="#advantages">advantages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
+                </li>
+            </ul>
+            <!-- /links list -->
+        </div>
+        <!-- /navbar content -->
+    </nav>
+
+
+    <header id="masterHead" class="d-flex flex-column">
+
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-md-5 d-flex flex-column" style="color: #fff;">
+                    <div class="">
+                        <h1 class="text-capitalize animate__animated animate__fadeInLeft">GOERZ&#174; is an app that
+                            allow users to have expedited
+                            purchasing power!
+                        </h1>
+                        <button class="btn my-1 animate__animated animate__fadeInUp"><i
+                                class="fab fa-google-play fa-lg"></i>
+                            Download for
+                            Android </button>
+                        <button class="btn my-1 animate__animated animate__fadeInUp"><i
+                                class="fab fa-apple fa-lg"></i></i> Download for Iphone </button>
+
+                    </div>
+                </div>
+                <div class="col-md-7 h-100 text-right">
+                    <img class="animate__animated animate__tada" src="iphone.png" alt="iphone" style="width:80%;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid text-dark p-0" style="background: #FEDC5B; min-height:100vh">
+
+
+        <div class="row text-uppercase" style="min-height:50vh">
+            <div class="col-12" data-aos="fade-down">
+                <h1 class="p-4 text-center text-uppercase">Advantages</h1>
+            </div>
+            <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1500">
+                <img src="qr-code.svg" class="pb-4" width="200" alt="">
+                <h3>Contactless Payment</h3>
+            </div>
+            <div class="col-md-4 text-center" data-aos="fade-up" data-aos-duration="1500">
+                <img src="time.svg" class="pb-4" width="200" alt="">
+                <h3> Minimal Wait-time</h3>
+
+            </div>
+            <div class="col-md-4 text-center" data-aos="fade-left" data-aos-duration="1500">
+                <img src="promotion.svg" class="pb-4" width="200" alt="">
+                <h3> Promotions</h3>
+
+            </div>
+        </div>
+
+        <div class="row text-center p-4" style="min-height:50vh; background:#AF7BA1; color:#fff">
+            <div class="col-md-12 my-auto" data-aos="fade-up" data-aos-duration="1500">
+                <lottie-player class="mx-auto" src="https://assets2.lottiefiles.com/packages/lf20_JmIkVg.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+
+                <h1><i class="far fa-envelope"></i> CONTACT</h1>
+                <h4>GOERZAPP@gmail.com</h4>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- Core theme JS-->
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        /* Sample function that returns boolean in case the browser is Internet Explorer*/
+        function isIE() {
+            ua = navigator.userAgent;
+            /* MSIE used to detect old browsers and Trident used to newer ones*/
+            var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+
+            return is_ie;
+        }
+        /* Create an alert to show if the browser is IE or not */
+        if (isIE()) {
+            alert('You are currently viewing this website using internet explorer, however, this website is not compatible with that browser.');
+        } 
+    </script>
+</body>
+
+</html>
